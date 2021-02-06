@@ -15,18 +15,18 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 1272115  # integer value, dont use ""
-    API_HASH = "f0f83c2fcef971f87561229e9097520e"
-    TOKEN = "1275607746:AAHrFB3V9HxLmUV57qrBlZ_5gcX-Q01JCbo"
-    OWNER_ID = 1200780834  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "ArzooOfficial"
-    SUPPORT_CHAT = '@Tinder_Queens'
+    API_ID = 2473722  # integer value, dont use ""
+    API_HASH = "3c0d122c8ec94ca43f4fb7063c5497f0"
+    TOKEN = "1606796268:AAH8DCyHA6JHGctpt9QNhNHo_zQzihvYpJY"
+    OWNER_ID = 1463735328  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "LEAVEIY"
+    SUPPORT_CHAT = '@godzilla_bot_support'
 
     #RECOMMENDED
 
     SQLALCHEMY_DATABASE_URI = 'something://somewhat:user@hosturl:port/databasename'  # needed for any database modules
-    MESSAGE_DUMP = -1001253661229  # needed to make sure 'save from' messages persist
-    GBAN_LOGS = -1001308489311
+    MESSAGE_DUMP = -1001195706369  # needed to make sure 'save from' messages persist
+    GBAN_LOGS = -1001195706369
     LOAD = []
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = False
@@ -54,7 +54,7 @@ class Config(object):
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = 'awoo'
     TIME_API_KEY = 'awoo'
-    WALL_API = 'c0de5068cc4c45d6a94a020642fb2f1f'  #For wallpapers, get one from https://wall.alphacoders.com/api.php
+    WALL_API = 'AgACAgUAAxkBAAInp2AeuYdfrOs31fk5OKXmudKC6mNTAAKprDEbWwAB-VSv8boHi-sOtkRVpm50AAMBAAMCAAN5AAMDAAECAAEeBA'  #For wallpapers, get one from https://wall.alphacoders.com/api.php
     AI_API_KEY = 'awoo'  #For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
