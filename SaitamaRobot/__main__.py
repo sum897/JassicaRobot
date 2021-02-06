@@ -156,7 +156,7 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([
-                  [InlineKeyboardButton(text="👸 Add Jassica to your group", url="t.me/{}?startgroup=true".format(context.bot.username))],
+                  [InlineKeyboardButton(text="☠️ Add Jassica to your group", url="t.me/{}?startgroup=true".format(context.bot.username))],
                   [InlineKeyboardButton(text="Source Code", url="https://github.com/QueenArzoo/ElisaRobot"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")]]))
     else:
         update.effective_message.reply_text("Yo, whadup?")
