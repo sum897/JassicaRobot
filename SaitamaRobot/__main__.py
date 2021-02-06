@@ -22,16 +22,16 @@ from telegram.utils.helpers import escape_markdown
 
 PM_START_TEXT = """
 
-Hi {}, my name is {}! 
-I am an Anime themed group management bot.
+Hi there,{}, my name is {}! 
+I am an Anime themed Powerfull group management bot.
 You can find my list of available commands with /help.
 
-i'm a group manager bot. Maintained by @GarimaQueen
+i'm a group manager bot. Maintained by @LEAVEIY
 
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey ! My name is *{}*.
 
 *Main* commands available:
  • /start: start the bot
@@ -49,11 +49,10 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://images.alphacoders.com/679/679719.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/bbf93f659fbd82f652ccb.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars)."""
+DONATE_STRING = """Heya, I'm glad to hear you want to donate!
+It's free 
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -156,8 +155,8 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([
-                  [InlineKeyboardButton(text="👸 Add Jassica to your group", url="t.me/{}?startgroup=true".format(context.bot.username))],
-                  [InlineKeyboardButton(text="Source Code", url="https://github.com/QueenArzoo/ElisaRobot"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")]]))
+                  [InlineKeyboardButton(text="👽 Add Venom to your group", url="t.me/{}?startgroup=true".format(context.bot.username))],
+                  [InlineKeyboardButton(text="Source Code", url="https://github.com/sum897/VenomBot"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")]]))
     else:
         update.effective_message.reply_text("Yo, whadup?")
 
@@ -424,7 +423,7 @@ def donate(update: Update, context: CallbackContext):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True)
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1463735328 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
